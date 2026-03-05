@@ -1,3 +1,18 @@
 nav {
     text-align: right;
 }
+main {
+    text-align: center;
+}
+main img{
+    width:800px;
+}
+main h2{
+    color: #1aa8de;
+}
+footer img {
+    width:100px;
+}
+footer {
+    text-align: center;
+}
