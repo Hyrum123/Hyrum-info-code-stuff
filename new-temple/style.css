@@ -3,6 +3,9 @@
     color: #3b3b3b;
 }
 
+*{
+    font-family: sans-serif;
+}
 /* Element Selector */
 h1 {
     text-transform: uppercase;
@@ -15,7 +18,6 @@ img {
 
 /*Id Selector */
 #status{
-    font-family: sans-serif;
     color: brown;
 }
 
@@ -32,3 +34,30 @@ img {
     color: saddlebrown;
     font-weight: bold;
 }
+
+.break{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+/* Group Selector */
+h1, .subtitle {
+    font-family: serif;
+}
+
+/* Pseudo Class Selectors */
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: saddlebrown;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+}
+
