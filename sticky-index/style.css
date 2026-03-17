@@ -1,0 +1,33 @@
+main {
+    height:2000px;
+    margin:0;
+}
+
+header {
+    top:0;
+    position: fixed;
+    width:100%;
+    text-align: center;
+    background-color: lightgreen;
+    z-index:100;
+}
+
+section{
+    margin:100px 200px;
+    position:relative;
+    height:100%;
+}
+
+h2{
+    position:sticky;
+    padding:2px 8px;
+    top:100px;
+    background-color:lightblue;
+    margin-top:0;
+    margin-bottom:10px;
+}
+
+section li{
+    margin:2px;
+}
+
