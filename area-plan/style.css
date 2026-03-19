@@ -1,6 +1,7 @@
-nav {
-    text-align: right;
+body{
+    margin:0;
 }
+
 main {
     text-align: center;
 }
@@ -15,4 +16,70 @@ footer img {
 }
 footer {
     text-align: center;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.head{
+    padding:15px;
+    border-bottom: 2px solid lightgray;
+    display:flex;
+    justify-content:space-between;
+}
+
+.navi{
+    display:flex;
+    gap:15px;
+}
+
+#mexico{
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+.bighead{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    border-bottom: 1px solid lightgray;
+    position:relative;
+}
+
+.nav-left{
+    display:flex;
+    gap:15px;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.nav-right{
+    display:flex;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display:flex;
+    flex-direction:column;
+    width:110px;
+    font-size:10px;
+    text-align:center;
+    padding:0;
+    flex-wrap: wrap;
+}
+
+#logo1{
+    font-size:12px;
+}
+
+#logo2{
+    font-size:18px;
+}
+
+#lds-logo{
+    width:50px;
 }
