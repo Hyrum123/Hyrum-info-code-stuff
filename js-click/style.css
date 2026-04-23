@@ -1,0 +1,23 @@
+body {
+    background-color:#3e3475;
+}
+
+button {
+    cursor:pointer;
+}
+
+h1 {
+    color:white;
+}
+
+.counter {
+    width:50%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#7f58cb;
+    border-radius:1rem;
+    height:200px;
+}
