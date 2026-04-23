@@ -13,6 +13,12 @@ button {
     border-color:black;
     background-color:white;
     border-radius:1rem;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+button:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 8px 0px;
 }
 
 h1 {
