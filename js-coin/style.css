@@ -9,9 +9,23 @@ button {
 }
 
 img {
+    height:500px;
     width:500px;
+    transition:height 0.06s;
+}
+
+img:active {
+    height:15px;
+    width:500px
 }
 
 .coin {
     position:relative;
+    cursor:grab;
+    height:500px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
+
