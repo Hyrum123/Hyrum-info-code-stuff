@@ -6,12 +6,13 @@ body {
 
 button {
     width:50px;
+    transition:height 0.08s;
 }
 
 img {
     height:500px;
     width:500px;
-    transition:height 0.06s;
+    transition:height 0.08s;
 }
 
 img:active {
