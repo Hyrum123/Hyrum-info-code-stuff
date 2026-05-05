@@ -33,3 +33,7 @@ function rps(rpsChoice) {
     }
   }
 }
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   document.querySelector("#rock-button").onclick = rps("rock");
+// });
