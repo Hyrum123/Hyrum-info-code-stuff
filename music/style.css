@@ -10,7 +10,7 @@ main {
     flex-direction:column;
     align-items:center;
     background-color:lightgray;
-    transition:background-color 0.1s translateY 0.1s;
+    transition:background-color 0.2s, transform 0.4s;
 }
 
 .active {

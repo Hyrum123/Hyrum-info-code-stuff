@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function(){
             kick.currentTime = 0.01;
             kick.play();
             kickDiv.classList.add("active");
-            document.getElementById("kick").style.transform = "translateY("+kickY+"rem)";
             kickY += 1;
+            document.getElementById("kick").style.transform = "translateY("+kickY+"rem)";
             if (kickY == 10) {
                 kickY = 0;
             }
@@ -41,30 +41,65 @@ document.addEventListener("DOMContentLoaded", function(){
             clap.currentTime = 0.01;
             clap.play();
             clapDiv.classList.add("active");
+            clapY += 1;
+            document.getElementById("clap").style.transform = "translateY("+clapY+"rem)";
+            if (clapY == 10) {
+                clapY = 0;
+            }
         } else if(event.key == "d") {
             cowbell.currentTime = 0.01;
             cowbell.play();
             cowbellDiv.classList.add("active");
+            cowbellY += 1;
+            document.getElementById("cowbell").style.transform = "translateY("+cowbellY+"rem)";
+            if (cowbellY == 10) {
+                cowbellY = 0;
+            }
         } else if(event.key == "f") {
             hihat.currentTime = 0.01;
             hihat.play();
             hihatDiv.classList.add("active");
+            hihatY += 1;
+            document.getElementById("hihat").style.transform = "translateY("+hihatY+"rem)";
+            if (hihatY == 10) {
+                hihatY = 0;
+            }
         } else if(event.key == "j") {
             openhat.currentTime = 0.01;
             openhat.play();
             openhatDiv.classList.add("active");
+            openhatY += 1;
+            document.getElementById("openhat").style.transform = "translateY("+openhatY+"rem)";
+            if (openhatY == 10) {
+                openhatY = 0;
+            }
         } else if(event.key == "k") {
             snare.currentTime = 0.01;
             snare.play();
             snareDiv.classList.add("active");
+            snareY += 1;
+            document.getElementById("snare").style.transform = "translateY("+snareY+"rem)";
+            if (snareY == 10) {
+                snareY = 0;
+            }
         } else if(event.key == "l") {
             tom.currentTime = 0.01;
             tom.play();
             tomDiv.classList.add("active");
+            tomY += 1;
+            document.getElementById("tom").style.transform = "translateY("+tomY+"rem)";
+            if (tomY == 10) {
+                tomY = 0;
+            }
         } else if(event.key == ";") {
             yuh.currentTime = 0.01;
             yuh.play();
             yuhDiv.classList.add("active");
+            yuhY += 1;
+            document.getElementById("yuh").style.transform = "translateY("+yuhY+"rem)";
+            if (yuhY == 10) {
+                yuhY = 0;
+            }
         }
     })
 
